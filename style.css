@@ -288,8 +288,9 @@ h2 {
     width: 176px;
 }
 
-.FirstViewCaption a {
+.FirstViewCaption {
     color: #a2a2a4;
+    font-size:12px;
 }
 
 .AboutWrapper {
@@ -733,3 +734,4 @@ API
 Training
 Blog
 About
+
