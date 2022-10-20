@@ -66,9 +66,9 @@ a{
 }
 
 a:-webkit-any-link {
-    color: -webkit-link;
+    color: black;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .HeaderLogo__image--pc {
@@ -114,6 +114,8 @@ nav {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    list-style:none;
+    color:#f79214;
 }
 
 ul, ol {
@@ -185,7 +187,6 @@ li {
     height: 40px;
     padding: 0 20px;
 }
-
 
 main {
     display: block;
@@ -291,6 +292,10 @@ h2 {
 .FirstViewCaption {
     color: #a2a2a4;
     font-size:12px;
+}
+
+.FirstViewContent__buttons {
+    display: flex;
 }
 
 .AboutWrapper {
@@ -734,4 +739,3 @@ API
 Training
 Blog
 About
-
